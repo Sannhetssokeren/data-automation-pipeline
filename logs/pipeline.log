@@ -1,0 +1,49 @@
+2025-12-15 23:20:28,010 - data_loader - INFO - CSV loaded: data/raw/data.csv, shape: (4, 5)
+2025-12-15 23:20:28,011 - data_loader - INFO - CSV loaded: data/raw/data.csv, shape: (4, 5)
+2025-12-15 23:20:28,051 - data_validator - INFO - Duplicates found: 0
+2025-12-15 23:20:28,053 - data_validator - INFO - Missing values:
+id          0
+name        0
+category    0
+score       0
+target      0
+dtype: int64
+2025-12-15 23:20:28,055 - data_validator - INFO - Outliers in id (IQR): 0
+2025-12-15 23:20:28,059 - data_cleaner - INFO - Missing values handled with strategy: median
+2025-12-15 23:20:28,060 - data_cleaner - INFO - Duplicates removed: 0
+2025-12-15 23:20:28,062 - data_cleaner - INFO - Categorical columns encoded: ['category'] with method: onehot
+2025-12-15 23:20:28,066 - data_analyzer - INFO - Basic statistics calculated
+2025-12-15 23:25:32,564 - data_loader - INFO - CSV loaded: data/raw/data.csv, shape: (4, 5)
+2025-12-15 23:25:32,565 - data_loader - INFO - CSV loaded: data/raw/data.csv, shape: (4, 5)
+2025-12-15 23:25:32,566 - data_validator - INFO - Duplicates found: 0
+2025-12-15 23:25:32,567 - data_validator - INFO - Missing values:
+id          0
+name        0
+category    0
+score       0
+target      0
+dtype: int64
+2025-12-15 23:25:32,568 - data_validator - INFO - Outliers in id (IQR): 0
+2025-12-15 23:25:32,570 - data_cleaner - INFO - Missing values handled with strategy: median
+2025-12-15 23:25:32,571 - data_cleaner - INFO - Duplicates removed: 0
+2025-12-15 23:25:32,572 - data_cleaner - INFO - Categorical columns encoded: ['category'] with method: onehot
+2025-12-15 23:25:32,576 - data_analyzer - INFO - Basic statistics calculated
+2025-12-15 23:25:32,586 - ml_model - INFO - Regression model trained. RMSE: 0.3846153846153846
+2025-12-15 23:27:59,944 - data_loader - INFO - CSV loaded: data/raw/data.csv, shape: (4, 5)
+2025-12-15 23:27:59,946 - data_loader - INFO - CSV loaded: data/raw/data.csv, shape: (4, 5)
+2025-12-15 23:27:59,946 - data_validator - INFO - Duplicates found: 0
+2025-12-15 23:27:59,947 - data_validator - INFO - Missing values:
+id          0
+name        0
+category    0
+score       0
+target      0
+dtype: int64
+2025-12-15 23:27:59,949 - data_validator - INFO - Outliers in id (IQR): 0
+2025-12-15 23:27:59,951 - data_cleaner - INFO - Missing values handled with strategy: median
+2025-12-15 23:27:59,952 - data_cleaner - INFO - Duplicates removed: 0
+2025-12-15 23:27:59,954 - data_cleaner - INFO - Categorical columns encoded: ['category'] with method: onehot
+2025-12-15 23:27:59,957 - data_analyzer - INFO - Basic statistics calculated
+2025-12-15 23:27:59,967 - ml_model - INFO - Regression model trained. RMSE: 0.3846153846153846
+2025-12-15 23:28:00,510 - report_generator - INFO - Visualizations generated
+2025-12-15 23:28:00,512 - report_generator - INFO - PDF report saved to reports/report.pdf
